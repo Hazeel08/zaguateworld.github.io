@@ -1,0 +1,59 @@
+.logo{
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.parr{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contacto{
+    margin-left: 2%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+#tabla{
+    width: 50%;
+    margin-top: 50px;
+    position: relative;
+    margin: 0 auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: overlay;
+    position: relative; 
+    height: 50px;
+    margin-bottom: 2%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    padding-right: 2%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.678);
+  }
+  
+  #tituloTabla{
+      background-color: #53C7FD;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 3px;
+  }
+
+  thead{
+    background-color: rgb(255, 0, 98);
+    color: #fff;
+    text-align: center;
+}

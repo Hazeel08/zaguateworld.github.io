@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: normal 0.8em arial, sans-serif;
+  background: #c4e9e8 url(../images/back.png) repeat-x;
+  color: #555;
+}
+
+#container {
+  background: transparent url(../images/grass.png) repeat-x bottom;
+}
+
+.imgSol {
+  
+  margin-right: 10%;
+  float: left;
+}
+
+header {
+  text-align: center;
+}
+
+.imgEncabezado {
+  width: 90%;
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+
+#main {
+  width: 60%;
+  height: 100%;
+  /*Centrar contenedor*/
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 2%;
+}
+
+.barraNav {
+  background-color: #53c7fd;
+  color: #fff;
+  justify-content: space-between;
+  padding: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.linkNav {
+  text-decoration: none;
+  color: #fff;
+}
+
+.barraNav .linkNav {
+  padding-right: 5px;
+}
+
+.barraNav a:hover {
+  color: #e5017d;
+}
+
+.dropdown-menu .dropdown-item {
+  background-color: #53c7fd;
+}
+
+.barraNavF {
+  background-color: #53c7fd;
+  color: #fff;
+  justify-content: space-between;
+  padding: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  text-align: center;
+}
+
+.linkNavF {
+  color: #fff;
+  border-right: 1px solid #fff;
+}
+
+.linkNavFo {
+  color: #fff;
+}
+
+.barraNavF .linkNavF {
+  padding-right: 5px;
+}
+
+.barraNavF a:hover {
+  color: #e5017d;
+}
+
+.pie {
+  color: white;
+  font-size: medium;
+  margin-bottom: 0%;
+  padding-bottom: 2%;
+}
+
+.linkPie {
+  color: white;
+}
+
+.formulario {
+  text-align: center;
+}
+
+form {
+  text-align: justify;
+  padding-top: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 720px) {
+  .imgSol {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+    .imgEncabezado {
+      width: 80%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+  .imgEncabezado {
+    width: 75%;
+  }
+}
